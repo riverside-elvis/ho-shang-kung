@@ -1,10 +1,16 @@
+# Build the ebook. Requires git and pandoc.
+
 # Pre-process foreward template version.
 if [[ -n $(git status -s) ]]; then
-    COMMIT="???????"
+    COMMIT="#######"
     EPOCH=$(date +%s)
 else
     COMMIT=$(git log -1 --format=%h)
     EPOCH=$(git log -1 --format=%ct)
+    TAG=$(git describe --always --tags $COMMIT)
+    if [[ $TAG != $COMMIT ]]; then
+        COMMIT=$TAG
+    fi
 fi
 DATE="@$EPOCH"
 VERSION="Commit $COMMIT, $(date -d $DATE +'%B %d, %Y')."
@@ -12,7 +18,7 @@ sed "s/{{ version }}/$VERSION/g" foreward.tpl.md > foreward.md
 echo "${VERSION}"
 
 # Build ebook.
-OUTPUT="HoShangKungsCommentaryOnLaotse.epub"
+OUTPUT="HoShangKungsCommentaryOnLaotse-$COMMIT.epub"
 pandoc \
   --output "${OUTPUT}" \
   --toc \
