@@ -55,4 +55,4 @@ Of the many editions of Ho-shang-kung, I had the newest and most complete one at
 
 [^introduction-17]: Li Ch'iao 李翹, Lao-tse ku-chu 老子古注 (1922), 2 vols. Several editions from which Li Ch'iao quotes variants were inaccessible to me and are therefore not specially mentioned.
 
-[^introduction-18]: Tao-te-chen-ching-chu 道德真經註, Tao-tsang no. 676, reprint of 1926. The edition contains four parts (in one volume), pt. I containing chs. 1-16, pt. 2 chs. 17-37, pt. 3 chs. 38-59, pt. 4 chs. 60-87.
+[^introduction-18]: Tao-te-chen-ching-chu 道德眞經註, Tao-tsang no. 676, reprint of 1926. The edition contains four parts (in one volume), pt. I containing chs. 1-16, pt. 2 chs. 17-37, pt. 3 chs. 38-59, pt. 4 chs. 60-87.

@@ -35,7 +35,7 @@ I'm fairly sure I've transcribed
 CJK characters correctly,
 except perhaps for the following:
 
-- Ch. 53 肖 - 外 in ctext
+- Ch. 5 畜 - the top component isn't quite 玄 in the original, but I can't find a likely alternative - 畜 in ctext
 - Ch. 57 誖 - 冖 is a closed box in the original - 諱 in ctext
 
 Where I was unable to locate
@@ -44,7 +44,7 @@ I've replaced the missing character with □.
 
 - Ch. 3  - 水 radical on the left with 亠 + 囗 + 日 + 羊 vertically on the right - 厚 in ctext
 - Ch. 62 - 淳 with 子 as 日 + 羊 vertically - 淳 in ctext
-- Ch. 64 - two horizontal components, 五 + something I can't decipher vertically on the left and 爪 + 日 vertically on the right - 伏 in ctext
+- Ch. 64 - two horizontal components, 九 (?) + something I can't decipher vertically on the left with 㸓 on the right - 伏 in ctext
 - Ch. 73 - probably 糸 radical on the left with 戰 on the right - 繟 in ctext
 
 I found a few typos along the way
