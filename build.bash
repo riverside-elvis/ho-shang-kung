@@ -7,8 +7,8 @@ if [[ -n $(git status -s) ]]; then
 else
     COMMIT=$(git log -1 --format=%h)
     EPOCH=$(git log -1 --format=%ct)
-    TAG=$(git describe --always --tags $COMMIT)
-    if [[ $TAG != $COMMIT ]]; then
+    TAG=$(git describe --tags --candidates=0 $COMMIT 2>/dev/null)
+    if [[ -n $TAG ]]; then
         COMMIT=$TAG
     fi
 fi
