@@ -33,19 +33,12 @@ on your ebook reader.
 
 I'm fairly sure I've transcribed
 CJK characters correctly,
-except perhaps for the following:
-
-- Ch. 5 畜 - the top component isn't quite 玄 in the original, but I can't find a likely alternative - 畜 in ctext
-- Ch. 57 誖 - 冖 is a closed box in the original - 諱 in ctext
-
-Where I was unable to locate
-a Unicode encoding for a character,
+and where I was unable to locate
+a Unicode code-point for a character,
 I've replaced the missing character with □.
 
-- Ch. 3  - 水 radical on the left with 亠 + 囗 + 日 + 羊 vertically on the right - 厚 in ctext
-- Ch. 62 - 淳 with 子 as 日 + 羊 vertically - 淳 in ctext
-- Ch. 64 - two horizontal components, 九 (?) + something I can't decipher vertically on the left with 㸓 on the right - 伏 in ctext
-- Ch. 73 - probably 糸 radical on the left with 戰 on the right - 繟 in ctext
+- Chs. 3 and 62 - 水 radical on the left with 亯 + 羊 (U+263AB) vertically on the right - both are 厚 in ctext
+- Ch. 73 - 糸 radical on the left with 戰 on the right - 繟 in ctext
 
 I found a few typos along the way
 and left them as-is.
@@ -68,7 +61,7 @@ It's likely that single quotes
 don't conform to Wade-Giles syntax.
 
 In Erkes' notes,
-what appear to be em dashes sometimes separate
+em dashes sometimes separate
 supplemental information from the main note.
 I've added a line break following the main note
 to avoid orphaned dashes
